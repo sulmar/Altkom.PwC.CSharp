@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwC.Shop.Models", "PwC.Shop.Models\PwC.Shop.Models.csproj", "{385DE537-DB7D-4AB3-9789-27225F30A81A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{385DE537-DB7D-4AB3-9789-27225F30A81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385DE537-DB7D-4AB3-9789-27225F30A81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385DE537-DB7D-4AB3-9789-27225F30A81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385DE537-DB7D-4AB3-9789-27225F30A81A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1DD331F1-C2A0-46E3-B22D-05636459F282}
+	EndGlobalSection
+EndGlobal
