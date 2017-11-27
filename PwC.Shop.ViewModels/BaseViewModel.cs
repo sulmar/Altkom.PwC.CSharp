@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PwC.Shop.Models
+namespace PwC.Shop.ViewModels
 {
-    public class Class1
+    public abstract class BaseViewModel
     {
     }
 }
