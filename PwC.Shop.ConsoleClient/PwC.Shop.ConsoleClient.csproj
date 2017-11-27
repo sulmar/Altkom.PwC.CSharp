@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17541141-A5F6-4DBB-8332-B405A8C76AA2}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PwC.Shop.MockServices</RootNamespace>
-    <AssemblyName>PwC.Shop.MockServices</AssemblyName>
+    <ProjectGuid>{C81C9CEC-A1E7-49C1-AB9C-BD0BEE5E0E6D}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PwC.Shop.ConsoleClient</RootNamespace>
+    <AssemblyName>PwC.Shop.ConsoleClient</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,16 +42,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MockCustomersService.cs" />
-    <Compile Include="MockItemsService.cs" />
-    <Compile Include="MockProductsService.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PwC.Shop.IServices\PwC.Shop.IServices.csproj">
-      <Project>{79559182-5A7E-47B8-BBA7-25B5D2940EFE}</Project>
-      <Name>PwC.Shop.IServices</Name>
-    </ProjectReference>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\PwC.Shop.Models\PwC.Shop.Models.csproj">
       <Project>{385DE537-DB7D-4AB3-9789-27225F30A81A}</Project>
       <Name>PwC.Shop.Models</Name>

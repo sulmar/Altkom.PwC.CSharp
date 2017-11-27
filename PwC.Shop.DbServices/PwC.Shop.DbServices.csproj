@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{17541141-A5F6-4DBB-8332-B405A8C76AA2}</ProjectGuid>
+    <ProjectGuid>{692690B9-7748-4328-A0EC-3595F683AC29}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PwC.Shop.MockServices</RootNamespace>
-    <AssemblyName>PwC.Shop.MockServices</AssemblyName>
+    <RootNamespace>PwC.Shop.DbServices</RootNamespace>
+    <AssemblyName>PwC.Shop.DbServices</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,18 +40,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MockCustomersService.cs" />
-    <Compile Include="MockItemsService.cs" />
-    <Compile Include="MockProductsService.cs" />
+    <Compile Include="DbCustomersService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\PwC.Shop.IServices\PwC.Shop.IServices.csproj">
-      <Project>{79559182-5A7E-47B8-BBA7-25B5D2940EFE}</Project>
+      <Project>{79559182-5a7e-47b8-bba7-25b5d2940efe}</Project>
       <Name>PwC.Shop.IServices</Name>
     </ProjectReference>
     <ProjectReference Include="..\PwC.Shop.Models\PwC.Shop.Models.csproj">
-      <Project>{385DE537-DB7D-4AB3-9789-27225F30A81A}</Project>
+      <Project>{385de537-db7d-4ab3-9789-27225f30a81a}</Project>
       <Name>PwC.Shop.Models</Name>
     </ProjectReference>
   </ItemGroup>

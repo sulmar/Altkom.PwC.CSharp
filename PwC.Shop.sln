@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwC.Shop.IServices", "PwC.S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwC.Shop.MockServices", "PwC.Shop.MockServices\PwC.Shop.MockServices.csproj", "{17541141-A5F6-4DBB-8332-B405A8C76AA2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwC.Shop.DbServices", "PwC.Shop.DbServices\PwC.Shop.DbServices.csproj", "{692690B9-7748-4328-A0EC-3595F683AC29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwC.Shop.ConsoleClient", "PwC.Shop.ConsoleClient\PwC.Shop.ConsoleClient.csproj", "{C81C9CEC-A1E7-49C1-AB9C-BD0BEE5E0E6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{17541141-A5F6-4DBB-8332-B405A8C76AA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17541141-A5F6-4DBB-8332-B405A8C76AA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17541141-A5F6-4DBB-8332-B405A8C76AA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692690B9-7748-4328-A0EC-3595F683AC29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692690B9-7748-4328-A0EC-3595F683AC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692690B9-7748-4328-A0EC-3595F683AC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692690B9-7748-4328-A0EC-3595F683AC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81C9CEC-A1E7-49C1-AB9C-BD0BEE5E0E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81C9CEC-A1E7-49C1-AB9C-BD0BEE5E0E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81C9CEC-A1E7-49C1-AB9C-BD0BEE5E0E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81C9CEC-A1E7-49C1-AB9C-BD0BEE5E0E6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

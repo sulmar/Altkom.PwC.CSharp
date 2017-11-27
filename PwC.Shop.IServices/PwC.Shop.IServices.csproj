@@ -40,8 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IAmountCalculator.cs" />
     <Compile Include="IATM.cs" />
     <Compile Include="ICustomersService.cs" />
+    <Compile Include="IItemsService.cs" />
+    <Compile Include="IOrdersService.cs" />
     <Compile Include="IProductsService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -101,5 +101,15 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PwC.Shop.Models\PwC.Shop.Models.csproj">
+      <Project>{385de537-db7d-4ab3-9789-27225f30a81a}</Project>
+      <Name>PwC.Shop.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PwC.Shop.ViewModels\PwC.Shop.ViewModels.csproj">
+      <Project>{de053dfa-8c0c-4d98-a3df-0841ef65d89c}</Project>
+      <Name>PwC.Shop.ViewModels</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

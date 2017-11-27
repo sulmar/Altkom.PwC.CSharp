@@ -1,4 +1,5 @@
-﻿using PwC.Shop.IServices;
+﻿using PwC.Shop.DbServices;
+using PwC.Shop.IServices;
 using PwC.Shop.MockServices;
 using PwC.Shop.Models;
 using System;
@@ -13,6 +14,8 @@ namespace PwC.Shop.ViewModels
     {
         public ICollection<Customer> Customers { get; set; }
 
+        public Customer SelectedCustomer { get; set; }
+
         private readonly ICustomersService customersService;
 
         public CustomersViewModel()
@@ -23,6 +26,8 @@ namespace PwC.Shop.ViewModels
         public CustomersViewModel(ICustomersService customersService)
         {
             this.customersService = customersService;
+
+            
 
             Load();
         }

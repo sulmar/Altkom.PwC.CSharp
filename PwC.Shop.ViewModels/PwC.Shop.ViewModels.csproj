@@ -45,6 +45,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PwC.Shop.DbServices\PwC.Shop.DbServices.csproj">
+      <Project>{692690B9-7748-4328-A0EC-3595F683AC29}</Project>
+      <Name>PwC.Shop.DbServices</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PwC.Shop.IServices\PwC.Shop.IServices.csproj">
       <Project>{79559182-5A7E-47B8-BBA7-25B5D2940EFE}</Project>
       <Name>PwC.Shop.IServices</Name>
